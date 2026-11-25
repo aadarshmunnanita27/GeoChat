@@ -1,0 +1,12 @@
+[
+  {"question": "List all hospitals",
+   "expected_sql": "SELECT name FROM places WHERE category = 'hospital'"},
+  {"question": "How many schools are there?",
+   "expected_sql": "SELECT COUNT(*) AS total FROM places WHERE category = 'school'"},
+  {"question": "Show restaurants within 1 km of the city centre",
+   "expected_sql": "SELECT name FROM places WHERE category = 'restaurant' AND ST_DWithin(geom::geography, ST_SetSRID(ST_MakePoint(91.2868, 23.8315), 4326)::geography, 1000)"},
+  {"question": "Nearest park to the city centre",
+   "expected_sql": "SELECT name FROM places WHERE category = 'park' ORDER BY geom::geography <-> ST_SetSRID(ST_MakePoint(91.2868, 23.8315), 4326)::geography LIMIT 1"},
+  {"question": "How many parks are within 2 km of the city centre?",
+   "expected_sql": "SELECT COUNT(*) AS total FROM places WHERE category = 'park' AND ST_DWithin(geom::geography, ST_SetSRID(ST_MakePoint(91.2868, 23.8315), 4326)::geography, 2000)"}
+]

@@ -1,0 +1,200 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 1,
+    "name": "Agartala Govt Medical College Hospital",
+    "category": "hospital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.275,
+     23.842
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 2,
+    "name": "IGM Hospital",
+    "category": "hospital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.28,
+     23.835
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 3,
+    "name": "Tripura Medical Clinic",
+    "category": "hospital"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.295,
+     23.825
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 4,
+    "name": "Holy Cross School",
+    "category": "school"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.283,
+     23.83
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 5,
+    "name": "Umakanta Academy",
+    "category": "school"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.286,
+     23.833
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 6,
+    "name": "Netaji Subhash Vidyaniketan",
+    "category": "school"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.305,
+     23.845
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 7,
+    "name": "Rabindra Kanan Park",
+    "category": "park"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.29,
+     23.838
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 8,
+    "name": "Heritage Park",
+    "category": "park"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.278,
+     23.828
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 9,
+    "name": "Children Park",
+    "category": "park"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.3,
+     23.82
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 10,
+    "name": "Hawkers Corner Restaurant",
+    "category": "restaurant"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.287,
+     23.831
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 11,
+    "name": "Gourmet Bites",
+    "category": "restaurant"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.284,
+     23.834
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 12,
+    "name": "Riverside Dhaba",
+    "category": "restaurant"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.31,
+     23.85
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 13,
+    "name": "Kitchen Delight",
+    "category": "restaurant"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.292,
+     23.829
+    ]
+   }
+  }
+ ]
+}
